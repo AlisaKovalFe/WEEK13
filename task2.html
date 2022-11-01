@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+
+    <style>
+
+        .wrap {
+            display: flex;
+            justify-content: center;
+            margin-top: 7rem;
+        }
+
+        .calculator {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;        
+            width: 35rem;
+            height: 20rem;
+            border: 2px solid darkblue;
+            border-radius: 2rem;
+        }
+
+        .calculator__title {
+            margin: 0rem 1rem 3rem;
+            font-size: 4rem;
+            color: darkblue;
+        }
+
+        .calculator__buttons {
+            display: flex;
+            
+        }
+        .calculator__button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 6rem;
+            height: 4rem;
+            margin-right: 0.5rem;
+            font-size: 3rem;
+            background-color:rgb(133, 162, 214);
+            border: none;
+            border-radius: 1rem;
+            color: rgb(8, 8, 52);
+        }
+
+        .calculator__button_multiple {
+            padding-top: 1.5rem;
+        }
+
+        .calculator__button_subtract {
+            padding: 0rem 0rem 0.5rem;
+        }
+        
+        .calculator__button:hover {
+            background-color: rgb(91, 103, 126);
+            color: rgb(231, 231, 235);
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="wrap">
+        <section class="calculator">
+            <h1 class="calculator__title">Калькулятор</h1>
+            <div class="calculator__buttons">
+                <button class="calculator__button" onclick="add()">+</button>
+                <button class="calculator__button calculator__button_subtract" onclick="subtract()">-</button>
+                <button class="calculator__button calculator__button_multiple" onclick="multiple()">*</button>
+                <button class="calculator__button" onclick="division()">/</button>
+            </div>
+        </section>
+    </div>
+    
+
+    <script src="task2.js"></script>    
+</body>
+</html>
