@@ -70,6 +70,6 @@ p.s. реально пока что в принципе писать о себе
 
 ----------------
 Hi there! I'm Alisa Koval
-FrontEnd developer (HTML, CSS + JS in process)
+FrontEnd developer (HTML5, CSS3, Bootstrap5, JS in process + Git expirience)
 Create modern websites for business & charity projects
 Offer customer-focused $ resposible approach for product's quality & deadlines 
